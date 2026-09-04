@@ -1,0 +1,13 @@
+date,usage,day_of_week,is_weekend,high_usage,type_electricity,type_gas,type_water
+2026-01-25,12.0,Sunday,True,0,True,False,False
+2026-01-26,45.0,Monday,False,1,True,False,False
+2026-01-27,30.0,Tuesday,False,0,False,True,False
+2026-01-28,75.0,Wednesday,False,1,False,True,False
+2026-01-29,5.0,Thursday,False,0,False,False,True
+2026-01-30,60.0,Friday,False,1,True,False,False
+2026-01-31,33.0,Saturday,True,0,False,True,False
+2026-02-01,90.0,Sunday,True,1,False,True,False
+2026-02-02,21.0,Monday,False,0,False,False,True
+2026-02-03,15.0,Tuesday,False,0,True,False,False
+2026-02-04,38.72727272727273,Wednesday,False,0,False,True,False
+2026-02-05,40.0,Thursday,False,1,False,False,True
