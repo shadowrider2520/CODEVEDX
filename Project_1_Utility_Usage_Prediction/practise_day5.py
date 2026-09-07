@@ -1,6 +1,8 @@
 import pandas as pd
 import os
+
 FILE = "utility_usage.csv"
+
 def init_file():
     if not os.path.exists(FILE): # check for the csv file to be existed , else initialize a new one
         dataset = pd.DataFrame(columns=["date","unit_type","usage"])
