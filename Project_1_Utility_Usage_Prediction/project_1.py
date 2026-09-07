@@ -39,8 +39,10 @@ def update_record():
         view_records()
         idx = int(input("Enter row index to update: "))
         usage = float(input("Enter new usage: "))
+        date = input("Enter the new date:")
         df = pd.read_csv(FILE)
         df.loc[idx, "usage"] = usage
+        df.loc[idx,"date"] = date
         df.to_csv(FILE, index=False)
         print("Record updated.")
     except (ValueError, IndexError, KeyError):
